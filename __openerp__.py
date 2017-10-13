@@ -37,8 +37,11 @@
     'depends': ['base', 'stock'],
 
     'data': [
-
         'users_view.xml',
-        'security/security.xml', 
+        'stock_view.xml',
+        'security/security.xml',
     ],
+    'installable': True,
+    'application': False,
+    'auto_install': False,
 }
